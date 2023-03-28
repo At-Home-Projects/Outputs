@@ -1,0 +1,55 @@
+
+int red = 11;
+int green = 10;
+int blue = 9;
+
+
+void setup() {
+// setup rgb pins as output
+pinMode(red, OUTPUT);
+pinMode(green, OUTPUT);
+pinMode(blue, OUTPUT);
+
+}
+
+void loop() {
+
+rgb(255,0,100); // call rgb function
+delay(3000); // wait 2 sec
+rgb(0,0,0);
+delay(500);
+rgb(0,255,0);
+delay(2000);
+rgb(0,0,0);
+delay(500);
+
+}
+
+void rgb(int r,int g,int b) { // setup function
+
+  analogWrite(red, r); // red pin
+  analogWrite(green, g); // green pin
+  analogWrite(blue, b); // blue pin
+  
+}
+
+
+
+
+/* use this if you do not want to use a function
+
+// turn the RGB on
+analogWrite(red, 255);
+analogWrite(green, 0);
+analogWrite(blue, 100);
+
+delay(3000); // wait 3 sec
+
+// turn the RGB off
+analogWrite(red, 0);
+analogWrite(green, 0);
+analogWrite(blue, 0);
+
+delay(500); // wait 1 sec
+*/
+
