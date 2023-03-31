@@ -1,4 +1,5 @@
 
+// setup RGB pins
 int red = 11;
 int green = 10;
 int blue = 9;
