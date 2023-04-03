@@ -1,6 +1,9 @@
 
 /*
  * This is basic code for a 16 pin, 16X2 LCD screen
+ *
+ * Refer to the link below for more info:
+ * https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
  */
 
 
