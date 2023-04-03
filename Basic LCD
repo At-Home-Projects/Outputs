@@ -17,7 +17,7 @@ void setup() {
 
 void loop() {
   
-  lcd.clear(); // clear all pixels on display
+  lcd.clear(); // clear all pixels on display (put this in void setup if you do not want to use the while loop)
   
   lcd.setCursor(0,0); // tell whare to put the cursor (in this case 0,0 = top left)
   lcd.print("Hello, world!"); // print Hello, world! on the LCD
