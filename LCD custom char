@@ -1,0 +1,46 @@
+
+/*
+ * This is code for a 16 pin, 16X2 LCD screen coustom Character
+ * 
+ * use the generator on this website to easly get your binary:
+ * https://maxpromer.github.io/LCD-Character-Creator/
+ * 
+ * or, if you are on an AA school computer use this one:
+ * https://diyusthad.com/custom-character-generator-lcd
+ */
+
+
+#include <LiquidCrystal.h> // tell arduino to use the lcd lybrary
+
+// LiquidCrystal LCD_Name(RS_pin, enable_pin, d4, d5, d6, d7);
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins
+
+// Make custom characters:
+byte Skull[] = { // create an aray of binary to create the char
+0b00000,
+0b01110,
+0b10101,
+0b11011,
+0b01110,
+0b01110,
+0b00000,
+0b00000
+};
+
+void setup() {
+
+  lcd.begin(16, 2);  // Specify the LCD's number of columns and rows
+  
+  lcd.createChar(0, Skull); // define skull as char 0
+
+  lcd.clear(); // Clears the LCD screen
+
+  lcd.print("Custom Character");  // Print a message to the lcd (not necessary)
+}
+
+void loop() {
+
+  lcd.setCursor(0, 1); // set the cursor to the second row
+  lcd.write(byte(0));  // show char 0 (in this case the skull)
+
+}
