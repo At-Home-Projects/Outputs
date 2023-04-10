@@ -6,4 +6,6 @@ LCD circuitry:
 
 ![image](https://user-images.githubusercontent.com/120524043/230995907-dd16ad8f-0594-4d0a-aae2-2b18517b2ccb.png)
 
+pin 15 on the LCD may need a resistor but with my experience it is not necessary.
+
 from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
