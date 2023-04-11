@@ -1,5 +1,5 @@
 
-*Circuitry refrence:*
+*Circuitry refrence:
 
 
 LCD circuitry:
