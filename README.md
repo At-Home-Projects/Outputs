@@ -2,7 +2,7 @@
 ## Circuitry refrence:
 
 
-LCD circuitry:
+## LCD circuitry:
 
 
 ![image](https://user-images.githubusercontent.com/120524043/230995807-3cc91eb4-2e80-49ba-9183-5a58fe1ee0da.png)
@@ -14,7 +14,7 @@ pin 15 on the LCD may need a resistor but with my experience it is not necessary
 from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
 
 
-RGB circuitry:
+## RGB circuitry:
 
 ![image](https://user-images.githubusercontent.com/120524043/231278342-cc2b0c98-e843-4fbf-84f3-33af694f54f3.png)
 
