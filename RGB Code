@@ -1,11 +1,12 @@
 
-// setup RGB pins
+// setup RGB pins (Must be PWM)
 int red = 11;
 int green = 10;
 int blue = 9;
 
 
 void setup() {
+
 // setup rgb pins as output
 pinMode(red, OUTPUT);
 pinMode(green, OUTPUT);
