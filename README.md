@@ -14,6 +14,7 @@ from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-gui
 RGB circuitry:
 
 ![image](https://user-images.githubusercontent.com/120524043/231278342-cc2b0c98-e843-4fbf-84f3-33af694f54f3.png)
+
 From: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-1d-rgb-night-light
 
 ![image](https://user-images.githubusercontent.com/120524043/231278475-3cb5945b-d7df-4a3f-809f-d8b174426a2b.png)
