@@ -1,4 +1,7 @@
 
+*Circuitry refrence:*
+
+
 LCD circuitry:
 
 
