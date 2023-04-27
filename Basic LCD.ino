@@ -4,7 +4,7 @@
  *
  * Refer to the link below for more info:
  * https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
- * If you have a 12C Shield the whol thing is diferent, and more complex. for more info refer to: https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/
+ * If you have a I2C Shield the whol thing is diferent, and more complex. for more info refer to: https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/
  * (I have not looked into the shield too in depth so that link may be outdated)
  */
 
