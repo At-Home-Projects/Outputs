@@ -7,10 +7,10 @@
  */
 
 
-#include <LiquidCrystal.h> // tell arduino to use the lcd lybrary
+#include <LiquidCrystal.h> // tell arduino to use the lcd library
 
 // LiquidCrystal LCD_Name(RS_pin, enable_pin, d4, d5, d6, d7);
-LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins (If you have a 4 pin shild this setup is diferent (more on that coming soon))
 
 void setup() {
 
@@ -20,7 +20,7 @@ void setup() {
 
 void loop() {
   
-  lcd.clear(); // clear all pixels on display ( you can also put this in void setup, it may be more convinent if you have no delays in your code.)
+  lcd.clear(); // clear all pixels on display (you can also put this in void setup, it is more convinent if all you are going to do is display one thing with no delays)
   
   lcd.setCursor(0,0); // tell whare to put the cursor (in this case 0,0 = top left)
   lcd.print("Hello, world!"); // print Hello, world! on the LCD
