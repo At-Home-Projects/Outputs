@@ -4,13 +4,15 @@
  *
  * Refer to the link below for more info:
  * https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
+ * If you have a 12C Shield the whol thing is diferent, and more complex. for more info refer to: https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/
+ * (I have not looked into the shield too in depth so that link may be outdated)
  */
 
 
 #include <LiquidCrystal.h> // tell arduino to use the lcd library
 
 // LiquidCrystal LCD_Name(RS_pin, enable_pin, d4, d5, d6, d7);
-LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins (If you have a 4 pin shild this setup is diferent (more on that coming soon))
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins
 
 void setup() {
 
