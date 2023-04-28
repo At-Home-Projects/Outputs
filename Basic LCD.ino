@@ -12,7 +12,7 @@
 #include <LiquidCrystal.h> // tell arduino to use the lcd library
 
 // LiquidCrystal LCD_Name(RS_pin, enable_pin, d4, d5, d6, d7);
-LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins
+LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup lcd variable and lcd pins (does not need to be PWM)
 
 void setup() {
 
