@@ -22,3 +22,14 @@ From: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-gui
 
 ![image](https://user-images.githubusercontent.com/120524043/231278475-3cb5945b-d7df-4a3f-809f-d8b174426a2b.png)
 
+## I2C LCD circuitry:
+
+for UNO:
+
+
+![image](https://user-images.githubusercontent.com/120524043/235036844-33bece80-c2f3-4c22-a6df-27b0ecc07107.png)
+
+
+for MEGA:
+
+![image](https://user-images.githubusercontent.com/120524043/235036906-5087e62e-3ade-42e0-b321-19977132f050.png)
