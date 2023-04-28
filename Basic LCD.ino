@@ -1,11 +1,13 @@
 
 /*
- * This is basic code for a 16 pin, 16X2 LCD screen
+ * This is basic code for a 16 pin, 16X2 LCD screen useing Arduino.
  *
  * Refer to the link below for more info:
  * https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
- * If you have a I2C Shield the whol thing is diferent, and more complex. for more info refer to: https://lastminuteengineers.com/i2c-lcd-arduino-tutorial/
- * (I have not looked into the shield too in depth so that link may be outdated)
+ *
+ * If you have a I2C Shield refer to the I2C LCD file at: https://github.com/At-Home-Projects/light-and-display-outputs/blob/main/I2C%20LCD(4%20pin%20shield).ino 
+ *
+ * for coustom LCD characters refer to the LCD coustom char file at: https://github.com/At-Home-Projects/light-and-display-outputs/blob/main/LCD%20custom%20char.ino
  */
 
 
