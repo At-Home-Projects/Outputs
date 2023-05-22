@@ -2,6 +2,7 @@
 /*
 *  rewriten from the simple example in the NeoPixel lybrary
 *  (Requiers Adafruit NeoPixel lybrary)
+*  (will work with all NeoPixles)
 */
 
 #include <Adafruit_NeoPixel.h> // incude the NeoPixel lybrary
@@ -25,6 +26,9 @@ void loop() {
     pixels.setPixelColor(i, pixels.Color(0, 50, 0)); // turn the given pixel on
 
     pixels.show();   // Send the updated pixel colors to the hardware.
+    
+    // add a delay hear to see wich one lights up first!
+  
   }
 
   // turn and indivdual pixel on
