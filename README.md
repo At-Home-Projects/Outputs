@@ -33,3 +33,10 @@ for UNO:
 for MEGA:
 
 ![image](https://user-images.githubusercontent.com/120524043/235036906-5087e62e-3ade-42e0-b321-19977132f050.png)
+
+## DC motor Circuitry:
+
+based off images from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics
+
+![image](https://user-images.githubusercontent.com/120524043/235282204-486341ab-5d40-4821-9ad6-ee9cf362ed46.png)
+
