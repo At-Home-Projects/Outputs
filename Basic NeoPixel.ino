@@ -1,16 +1,15 @@
 
 /*
 *  rewriten from the simple example in the NeoPixel lybrary
+*  (Requiers Adafruit NeoPixel lybrary)
 */
 
 #include <Adafruit_NeoPixel.h> // incude the NeoPixel lybrary
 
 int neoPin = 6; // Which pin on the Arduino is connected to the NeoPixels?
-int numPixels = 8; // How many NeoPixels are attached to the Arduino?
+int numPixels = 8; // How many NeoPixels are there?
 
 Adafruit_NeoPixel pixels(numPixels, neoPin, NEO_GRB + NEO_KHZ800); // setup our strip
-
-int delayTime = 500; // Time to pause between pixels
 
 void setup() {
   pixels.begin(); // INITIALIZE NeoPixel
@@ -31,7 +30,6 @@ void loop() {
   // turn and indivdual pixel on
   pixels.setPixelColor(3, pixels.Color(50, 0, 0));
   pixels.show();
-  delay(delayTime);
 
   while(true); // stop the program from looping
 }
