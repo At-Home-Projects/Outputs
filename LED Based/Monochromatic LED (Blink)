@@ -1,0 +1,14 @@
+
+int ledPin = 13; // setup the LED in pin 13 (ardino has a built in led connected to this pin, so there is not even a need to build a surcuit!)
+
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off
+  delay(1000);                      // wait for a second
+}
