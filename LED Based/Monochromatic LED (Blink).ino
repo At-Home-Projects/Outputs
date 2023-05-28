@@ -2,8 +2,7 @@
 int ledPin = 13; // setup the LED in pin 13 (ardino has a built in led connected to this pin, so there is not even a need to build a surcuit!)
 
 void setup() {
-  // initialize digital pin LED_BUILTIN as an output.
-  pinMode(ledPin, OUTPUT);
+  pinMode(ledPin, OUTPUT);  // initialize the pin the led is in as an output.
 }
 
 void loop() {
