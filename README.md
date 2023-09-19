@@ -11,7 +11,7 @@
 
 pin 15 on the LCD may need a resistor but with my experience it is not necessary.
 
-from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
+Images from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-4a-lcd-hello-world
 
 View the code in action at: https://wokwi.com/projects/376338650472112129
 
