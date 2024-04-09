@@ -1,6 +1,6 @@
 
 /*
- * This is code for a 16 pin, 16X2 LCD screen coustom Character (tho with small changes it will work with other sizes)
+ * This is code for a 16 pin, 16X2 LCD screen coustom Character (with small changes it will work with other sizes)
  * 
  * use the generator on this website to easly get your binary:
  * https://maxpromer.github.io/LCD-Character-Creator/
