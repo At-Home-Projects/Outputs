@@ -1,10 +1,11 @@
 
 /*
+*  The folowing is code for a 16 pin LCD screen.
 *  view this code at: https://wokwi.com/projects/376338650472112129
 */
 
 // setup LCD 
-#include <LiquidCrystal.h> // tell Arduino to use the LCD library 
+#include <LiquidCrystal.h>               // tell Arduino to use the LCD library 
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8); // setup LCD variable and LCD pins 
 
 void setup() {
