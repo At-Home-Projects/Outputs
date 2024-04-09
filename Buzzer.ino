@@ -14,13 +14,11 @@
 
 int speakerPin = 10;               //the pin that buzzer is connected to
 
-void setup()
-{
+void setup() {
   pinMode(speakerPin, OUTPUT);    //set the output pin for the speaker
 }
 
-void loop()
-{
+void loop() {
 
   play('g', 2);       //ha
   play('g', 1);       //ppy
@@ -61,8 +59,7 @@ void loop()
 }
 
 
-void play( char note, int beats)
-{
+void play( char note, int beats) {
   int numNotes = 14;  // number of notes in our note and frequency array (there are 15 values, but arrays start at 0)
 
   //Note: these notes are C major (there are no sharps or flats)
@@ -76,10 +73,9 @@ void play( char note, int beats)
   int beatLength = 150;   //the length of one beat (changing this will speed up or slow down the tempo of the song)
 
   //look up the frequency that corresponds to the note
-  for (int i = 0; i < numNotes; i++)  // check each value in notes from 0 to 14
-  {
-    if (notes[i] == note)             // does the letter passed to the play function match the letter in the array?
-    {
+  for (int i = 0; i < numNotes; i++) { // check each value in notes from 0 to 14
+  
+    if (notes[i] == note) {            // does the letter passed to the play function match the letter in the array?
       currentFrequency = frequencies[i];   // Yes! Set the current frequency to match that note
     }
   }
