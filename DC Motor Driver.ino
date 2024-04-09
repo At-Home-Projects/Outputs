@@ -2,7 +2,7 @@
 /*
  * Code for a SparkFun TB6612FNG Motor Driver
  * with our experiance this will work for most if not all DC motors.
- * we use 2 motors in this sketch. if you only need one, remove all of the variables and functions includeing B and not A (motor 2 not 1)
+ * we use 2 motors in this sketch. if you only need one, remove all of the variables and functions pertaining to B but not A (motor 2 not 1)
  * rewriten from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-5a-motor-basics
  */
 
