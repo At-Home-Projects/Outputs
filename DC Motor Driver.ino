@@ -7,25 +7,25 @@
  */
 
 // directional pins (does not need to be PWM)
-const int AIN1 = 13;           //control pin 1 on the motor driver for the first motor
-const int AIN2 = 12;           //control pin 2 on the motor driver for the first motor
+const int AIN1 = 13;           // control pin 1 on the motor driver for the first motor
+const int AIN2 = 12;           // control pin 2 on the motor driver for the first motor
 
-const int BIN1 = 9;           //control pin 1 on the motor driver for the second motor
-const int BIN2 = 8;           //control pin 2 on the motor driver for the second motor
+const int BIN1 = 9;            // control pin 1 on the motor driver for the second motor
+const int BIN2 = 8;            // control pin 2 on the motor driver for the second motor
 
 // Speed pins (needs to be PWM)
-const int PWMA = 11;          //speed control pin on the motor driver for the first motor
-const int PWMB = 10;          //speed control pin on the motor driver for the second motor
+const int PWMA = 11;          // speed control pin on the motor driver for the first motor
+const int PWMB = 10;          // speed control pin on the motor driver for the second motor
 
 
 void setup() {
 
-  //set the motor 1 control pins as outputs
+  //set motor 1 control pins as outputs
   pinMode(AIN1, OUTPUT);
   pinMode(AIN2, OUTPUT);
   pinMode(PWMA, OUTPUT);
 
-  //set the motor 2 control pins as outputs
+  //set motor 2 control pins as outputs
   pinMode(BIN1, OUTPUT);
   pinMode(BIN2, OUTPUT);
   pinMode(PWMB, OUTPUT);
@@ -41,7 +41,7 @@ void loop() {
 
 }
 
-void spinMotor1(int motorSpeed)        //function for driving motor 1
+void spinMotor1(int motorSpeed)       //function for driving motor 1
 {
   if (motorSpeed > 0)                 //if the motor should drive forward (positive speed)
   {
@@ -62,8 +62,8 @@ void spinMotor1(int motorSpeed)        //function for driving motor 1
 }
 
 
-
-void spinMotor2(int motorSpeed) {       //function for driving motor 2
+// function for determening motor direction. idealy for a robot, edit as needed.
+void spinMotor2(int motorSpeed) {     //function for driving motor 2
 
   if (motorSpeed > 0){                //if the motor should drive forward (positive speed)
   
