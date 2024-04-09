@@ -15,14 +15,6 @@ Images from: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experim
 
 View the code in action at: https://wokwi.com/projects/376338650472112129
 
-## RGB circuitry:
-
-![image](https://user-images.githubusercontent.com/120524043/231278342-cc2b0c98-e843-4fbf-84f3-33af694f54f3.png)
-
-From: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-1d-rgb-night-light
-
-![image](https://user-images.githubusercontent.com/120524043/231278475-3cb5945b-d7df-4a3f-809f-d8b174426a2b.png)
-
 ## I2C LCD circuitry:
 
 for UNO:
@@ -34,6 +26,14 @@ for UNO:
 for MEGA:
 
 ![image](https://user-images.githubusercontent.com/120524043/235036906-5087e62e-3ade-42e0-b321-19977132f050.png)
+
+## RGB circuitry:
+
+![image](https://user-images.githubusercontent.com/120524043/231278342-cc2b0c98-e843-4fbf-84f3-33af694f54f3.png)
+
+From: https://learn.sparkfun.com/tutorials/sparkfun-inventors-kit-experiment-guide---v41/circuit-1d-rgb-night-light
+
+![image](https://user-images.githubusercontent.com/120524043/231278475-3cb5945b-d7df-4a3f-809f-d8b174426a2b.png)
 
 ## DC motor Circuitry:
 
